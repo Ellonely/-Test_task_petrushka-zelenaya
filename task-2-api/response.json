@@ -1,0 +1,59 @@
+{
+  "success": true,
+  "data": {
+    "shops": [
+      {
+        "id": "shop_001",
+        "name": "METRO",
+        "logo_url": "https://cdn.petrushka-zelenaya.ru/logos/metro.png",
+        "external_link": "https://metro.ru/partner/petrushka-zelenaya",
+        "delivery_data": {
+          "type": "time_slot",
+          "date": "сегодня",
+          "from": "21:00",
+          "to": "23:00"
+        }
+      },
+      {
+        "id": "shop_002",
+        "name": "Ашан",
+        "logo_url": "https://cdn.petrushka-zelenaya.ru/logos/auchan.png",
+        "external_link": "https://auchan.ru/partner/petrushka-zelenaya",
+        "delivery_data": {
+          "type": "time_slot",
+          "date": "сегодня",
+          "from": "18:00",
+          "to": "20:00"
+        }
+      },
+      {
+        "id": "shop_003",
+        "name": "ВкусВилл",
+        "logo_url": "https://cdn.petrushka-zelenaya.ru/logos/vkusvill.png",
+        "external_link": "https://vkusvill.ru/partner/petrushka-zelenaya",
+        "delivery_data": {
+          "type": "fast",
+          "min": 20,
+          "max": 60
+        }
+      },
+      {
+        "id": "shop_004",
+        "name": "ВИКТОРИЯ",
+        "logo_url": "https://cdn.petrushka-zelenaya.ru/logos/victoria.png",
+        "external_link": "https://victoria.ru/partner/petrushka-zelenaya",
+        "delivery_data": {
+          "type": "time_slot",
+          "date": "сегодня",
+          "from": "17:00",
+          "to": "19:00"
+        }
+      }
+    ],
+    "total_count": 4
+  },
+  "meta": {
+    "request_id": "req_12345abcde",
+    "timestamp": "2026-05-04T15:30:00+03:00"
+  }
+}
