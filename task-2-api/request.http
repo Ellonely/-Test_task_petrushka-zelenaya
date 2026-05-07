@@ -1,0 +1,7 @@
+GET /api/v1/partner-shops?lat=56.8519&lng=35.9231&limit=20 HTTP/1.1
+Host: api.petrushka-zelenaya.ru
+Authorization: Bearer {user_access_token}
+Accept: application/json
+Accept-Language: ru-RU
+X-App-Version: 2.1.3
+X-Device-OS: Android 11
